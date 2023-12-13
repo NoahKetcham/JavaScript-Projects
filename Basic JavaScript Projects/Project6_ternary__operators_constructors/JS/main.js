@@ -19,14 +19,14 @@ function VoteFunction() {
 //-----------------KEYWORDS AND CONSTRUCTORS-----------------------------//
 
 function Vehicle(Make, Model, Year, Color) {
-    this.Vehicle_Make = Make;
-    this.Vehicle_Model = Model;
-    this.Vehicle_Year = Year;
-    this.Vehicle_Color = Color;
+    this.Vehicle_Make = Make;   //
+    this.Vehicle_Model = Model;  //
+    this.Vehicle_Year = Year;   //
+    this.Vehicle_Color = Color; // KEYS
 }
-var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
-var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
-var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
+var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");                      //
+var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");     //
+var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");                   // VALUES
 function myFunction() {
     document.getElementById("keywords_and_constructors").innerHTML =
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
