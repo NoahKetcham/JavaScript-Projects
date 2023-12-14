@@ -1,16 +1,21 @@
 *{box-sizing:border-box}
+*{background-color: rgb(27, 37, 37);}
 
 /* SLIDESHOW CONTAINER */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    border: black;
+    border-radius: 3px;
+    background-color: #717171;
 }
 
 /* HIDE THE IMAGES BY DEFAULT */
 .mySlides {
     display: none;
-}
+} 
+
 
 /* NEXT AND PREVIOUS BUTTONS*/
 .prev, .next {
@@ -85,3 +90,4 @@
     from {opacity: .4}
     to {opacity: 1}
 }
+
