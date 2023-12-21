@@ -81,9 +81,9 @@ function checkWinConditions() {
     //X 1, 4, 7 condition.
     else if (arrayIncludes('1X', '4X', '7X')) {drawWinLine(304, 50, 304, 558) }
     //X 2, 5, 8 condition.
-    else if (arrayIncludes('2X', '5X', '8X')) {drawWinLine(304, 50, 304, 558) }
+    else if (arrayIncludes('2X', '5X', '8X')) {drawWinLine(508, 50, 508, 558) }
     //X 6, 4, 2 condition.
-    else if (arrayIncludes('6X', '4X', '2X')) {drawWinLine(508, 50, 508, 558) }
+    else if (arrayIncludes('6X', '4X', '2X')) {drawWinLine(100, 508, 510, 90) }
     //X 0, 4, 8 condition.
     else if (arrayIncludes('0X', '4X', '8X')) {drawWinLine(100, 100, 520, 520) }
     //O 0 1, 2 condition.
@@ -97,9 +97,9 @@ function checkWinConditions() {
     //O 1, 4, 7 condition.
     else if (arrayIncludes('1O', '4O', '7O')) {drawWinLine(304, 50, 304, 558) }
     //O 2, 5, 8 condition.
-    else if (arrayIncludes('2O', '5O', '8O')) {drawWinLine(304, 50, 304, 558) }
+    else if (arrayIncludes('2O', '5O', '8O')) {drawWinLine(508, 50, 508, 558) }
     //O 6, 4, 2 condition.
-    else if (arrayIncludes('6O', '4O', '2O')) {drawWinLine(508, 50, 508, 558) }
+    else if (arrayIncludes('6O', '4O', '2O')) {drawWinLine(100, 508, 510, 90) }
     //O 0, 4, 8 condition.
     else if (arrayIncludes('0O', '4O', '8O')) {drawWinLine(100, 100, 520, 520) }
     //This condition checks for a tie.  If none of the above conditions are met and
