@@ -55,7 +55,9 @@ function getTopping(runningTotal,text1) {
             text1 = text1 + veggieArray[k].value + "<br>";
         }
     }
-    //-----------
+    //-------------------------------------------------------------------------------------------------------
+    //I REALISED I COULD HAVE JUST USED THE "toppings" CLASS FOR MY VEGETABLES AFTER ADDING TO THE FUNCTION.
+    //-------------------------------------------------------------------------------------------------------
     var toppingCount = selectedTopping.length;
     if (toppingCount > 1) {
         toppingTotal = (toppingCount - 1);
