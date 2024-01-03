@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
+    <link rel="stylesheet" href="./CSS/main.css">
     <script src="js/main.js"></script>
 </head>
 
 <body>
+    <script>
+        document.body.classList.add('fade-out');
+        window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+        });
+    </script>
     <header>
         <h1>Your Website</h1>
     </header>

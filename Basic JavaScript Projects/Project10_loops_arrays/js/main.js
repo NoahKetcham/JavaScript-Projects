@@ -65,3 +65,4 @@ function constant_function() {
  function displayDescription() {  /** FUNCTION ADDED SO THAT THE OBJECT COULD BE DISPLAYED WITH A BUTTON */
     document.getElementById("Drink_Object").innerHTML = energyDrink.description();
 }
+
